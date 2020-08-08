@@ -1,0 +1,50 @@
+<h1>Review Details :</h1>
+<h2>Flight Details :</h2>
+
+<table>
+  <tr>
+    <td>Airlines</td>
+    <td>:{{ data?.flight?.operatingAirlines }}</td>
+  </tr>
+  <tr>
+    <td>Arrival City</td>
+    <td>:{{ data?.flight?.arrivalCity }}</td>
+  </tr>
+  <tr>
+    <td>Departure City</td>
+    <td>:{{ data?.flight?.departureCity }}</td>
+  </tr>
+  <tr>
+    <td>Flight Number</td>
+    <td>:{{ data?.flight?.flightNumber }}</td>
+  </tr>
+  <tr>
+    <td>Estimated Departure Time</td>
+    <td>:{{ data?.flight?.estimatedDepartureTime }}</td>
+  </tr>
+  <tr>
+    <td>Date of Departure</td>
+    <td>:{{ data?.flight?.dateOfDeparture }}</td>
+  </tr>
+</table>
+
+<h2>Passenger Details :</h2>
+
+<table>
+  <tr>
+    <td>First Name</td>
+    <td>:{{ data?.passenger?.firstName }}</td>
+  </tr>
+  <tr>
+    <td>Last Name</td>
+    <td>:{{ data?.passenger?.lastName }}</td>
+  </tr>
+  <tr>
+    <td>Email Address</td>
+    <td>:{{ data?.passenger?.email }}</td>
+  </tr>
+  <tr>
+    <td>Phone Number</td>
+    <td>:{{ data?.passenger?.phone }}</td>
+  </tr>
+</table>
